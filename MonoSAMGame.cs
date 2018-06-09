@@ -38,7 +38,7 @@ namespace MonoSAMFramework.Portable
 
 		public abstract SAMSoundPlayer Sound { get; }
 
-		public IDebugTextDisplay DebugDisplay => (screens?.CurrentScreen as GameScreen)?.DebugDisp;
+		public IDebugTextDisplay DebugDisplay => screens?.CurrentScreen?.DebugDisp;
 
 		public static ISAMOperatingSystemBridge StaticBridge;
 

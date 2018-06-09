@@ -217,6 +217,10 @@
     <Compile Include="Screens\Entities\GameEntity.cs" />
     <Compile Include="Screens\Background\GameBackground.cs" />
     <Compile Include="Screens\HUD\Elements\Button\HUDEllipseImageButton.cs" />
+    <Compile Include="SPhysics\DummyPhysicsMap.cs" />
+    <Compile Include="SPhysics\ISPhysicsMap.cs" />
+    <Compile Include="SPhysics\PhysEntity.cs" />
+    <Compile Include="SPhysics\TiledPhysicsMap.cs" />
     <Compile Include="UpdateAgents\Impl\CyclicLambdaOperation.cs" />
     <Compile Include="UpdateAgents\Impl\SingleLambdaOperation.cs" />
     <Compile Include="UpdateAgents\Impl\LambdaOperation.cs" />
